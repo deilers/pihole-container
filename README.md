@@ -8,3 +8,4 @@ Startup script for running [Pi-Hole](https://pi-hole.net/) in a container. This 
 
 ## Notes:
 - I use `jacklul/pihole:latest` for my run image because I like their blocklists more, but its base image `pihole/pihole:latest` should work too.
+- Change `America/Los_Angeles` to your local time zone if you are not located in Pacific time (North America).
