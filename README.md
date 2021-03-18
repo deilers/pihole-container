@@ -6,4 +6,4 @@ Startup script for running [Pi-Hole](https://pi-hole.net/) in a container.
 - Change `CHOOSE_A_PASSWORD` to a password of your choosing.
 
 ## Notes:
-- I use `jacklul/pihole:latest` for my run image because I like their blocklists more, but the its base image `pihole/pihole:latest` should work too.
+- I use `jacklul/pihole:latest` for my run image because I like their blocklists more, but its base image `pihole/pihole:latest` should work too.
