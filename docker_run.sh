@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Forked from:
+# https://github.com/pi-hole/docker-pi-hole/blob/master/docker_run.sh
+
+# Full documentation:
 # https://github.com/pi-hole/docker-pi-hole/blob/master/README.md
 
 # IMPORTANT!
