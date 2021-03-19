@@ -13,3 +13,9 @@ This is a modification of a run script from the official Pi-Hole GitHub page. [L
 ## Notes:
 - I use `jacklul/pihole:latest` for my run image because I like their blocklists more, but its base image `pihole/pihole:latest` should work too.
 - Change `America/Los_Angeles` to your local time zone if you are not located in Pacific time (North America).
+
+## Helpful Commands:
+- Start Pi-Hole
+  - `PIHOLE_BASE=/opt/pihole-storage ./docker_run.sh`
+- Access container shell
+  - `docker exec -it pihole bash`
