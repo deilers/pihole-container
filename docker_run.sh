@@ -27,7 +27,7 @@ docker run -d \
     --hostname pi.hole \
     -e VIRTUAL_HOST="pi.hole" \
     -e PROXY_LOCATION="pi.hole" \
-    jacklul/pihole:latest
+    deilers/pihole-arm64
 
 printf 'Starting up pihole container '
 for i in $(seq 1 20); do
