@@ -11,7 +11,7 @@ This is a modification of a run script from the official Pi-Hole GitHub page. [L
   - **Note**: this file is mapped on your host machine to the container at `PIHOLE_BASE`.
 
 ## Notes
-- I use `jacklul/pihole:latest` for my run image because I like their blocklists more, but its base image `pihole/pihole:latest` should work too.
+- I maintain my own image `deilers/pihole-arm64`, which is a clone of `jacklul/pihole:latest`.
 - Change `America/Los_Angeles` to your local time zone if you are not located in Pacific time (North America).
 
 ## Helpful Commands
