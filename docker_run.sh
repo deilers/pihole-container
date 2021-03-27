@@ -34,7 +34,7 @@ for i in $(seq 1 20); do
     if [ "$(docker inspect -f "{{.State.Health.Status}}" pihole)" == "healthy" ] ; then
         printf ' OK'
         echo -e "\n$(docker logs pihole 2> /dev/null | grep 'password:') for your pi-hole: https://${IP}/admin/"
-        docker exec -t pihole bash -c "apt-get update ; apt-get upgrade -y ; apt-get autoremove"
+        docker exec -t pihole bash -c "apt-get update ; apt-get upgrade -y ; apt-get autoremove -y"
         exit 0
     else
         sleep 3
