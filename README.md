@@ -9,7 +9,6 @@ Startup script for running [Pi-Hole](https://pi-hole.net/) in a container. This 
   - **Note**: this file is mapped on your host machine to the container at `PIHOLE_BASE`.
 
 ## Notes
-- I maintain my own image `deilers/pihole-arm64`, which is a clone of `jacklul/pihole:latest`.
 - Change `America/Los_Angeles` to your local time zone if you are not located in Pacific time (North America).
 
 ## Helpful Commands
