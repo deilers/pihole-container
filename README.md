@@ -4,7 +4,7 @@ Startup script for running [Pi-Hole](https://pi-hole.net/) in a container. This 
 ## Instructions
 - Install [Docker](https://docs.docker.com/get-docker/) on your host machine.
 - Uncomment `PIHOLE_BASE="${PIHOLE_BASE:-$(pwd)}"` in order to use your current directory to store persistent data for Pi-Hole. To set manually, leave the above line commented and pass it as a new env variable before script execution (e.g. `PIHOLE_BASE=/opt/pihole-storage ./docker_run.sh`).
-- Change `CHOOSE_A_PASSWORD` to a password of your choosing.
+- Replace `CHOOSE_A_PASSWORD` with your preferred password for the web interface.
 - Update `pihole-updatelists.conf` to use the recommended lists [here](https://github.com/jacklul/pihole-updatelists#recommended-lists).
   - **Note**: this file is mapped on your host machine to the container at `PIHOLE_BASE`.
 
